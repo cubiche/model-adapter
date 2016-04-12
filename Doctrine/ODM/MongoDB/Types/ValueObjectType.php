@@ -8,10 +8,10 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Cubiche\Infrastructure\Model\Persistence\Doctrine\ODM\MongoDB\Types;
+namespace Cubiche\Infrastructure\Model\Doctrine\ODM\MongoDB\Types;
 
 use Doctrine\ODM\MongoDB\Types\Type as BaseType;
-use Cubiche\Infrastructure\Model\Persistence\Doctrine\Common\Types\ValueObjectTypeInterface;
+use Cubiche\Infrastructure\Model\Doctrine\Common\Types\ValueObjectTypeInterface;
 use Cubiche\Domain\Model\ValueObjectInterface;
 
 /**
@@ -24,7 +24,7 @@ abstract class ValueObjectType extends BaseType implements ValueObjectTypeInterf
     /**
      * {@inheritdoc}
      *
-     * @see \Cubiche\Infrastructure\Model\Persistence\Doctrine\Common\Types\ValueObjectTypeInterface::toDatabaseValue()
+     * @see \Cubiche\Infrastructure\Model\Doctrine\Common\Types\ValueObjectTypeInterface::toDatabaseValue()
      */
     final public function toDatabaseValue(ValueObjectInterface $value)
     {

@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Cubiche\Infrastructure\Model\Persistence\Doctrine\ODM\MongoDB\Types;
+namespace Cubiche\Infrastructure\Model\Doctrine\ODM\MongoDB\Types;
 
 /**
  * Abstract Native Value Object Type Class.

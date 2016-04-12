@@ -8,7 +8,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-namespace Cubiche\Infrastructure\Model\Persistence\Doctrine\ODM\MongoDB\Event;
+namespace Cubiche\Infrastructure\Model\Doctrine\ODM\MongoDB\Event;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\Event\ManagerEventArgs;
